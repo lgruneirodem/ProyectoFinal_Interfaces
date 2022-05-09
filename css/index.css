@@ -11,4 +11,9 @@ body,html{
     width: 320px;
     height: 568px;
     background-color:var(--nuestroColor);
+    font-family:'Nanum Gothic', sans-serif; 
+
+}
+.menu{
+    width:;
 }
