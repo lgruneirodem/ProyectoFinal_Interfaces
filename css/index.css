@@ -15,5 +15,31 @@ body,html{
 
 }
 .menu{
-    width:;
+    width: 2.2rem;
+    height: 2.7rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    top:50%;
+    left: 5%;
+    font-family:'Nanum Gothic', sans-serif;
+    font-size:2rem;
+    color:white;
+    text-align: center;
+    transition: left 0.7s;
+}
+.checkbox:checked ~ .menu{
+    left: 40%;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.left-panel {
+    width: 40%;
+    height: 100%;
+    background:linear-gradient(#4e7982,#70b58d,#acf5D2 ) ;
+    position: absolute;
+    top: 0;
+    left: -40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.4s;
 }
