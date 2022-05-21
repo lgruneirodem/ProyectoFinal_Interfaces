@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/addCita.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <title>Añadir Cita</title>
+</head>
+<body>
+    
+    <div class="addCita">
+        <form name="add" method="post" action="/send.php">
+            <h2 class="titulo">AÑADIR CITA</h2>
+            <p>Dirección</p>
+            <input type="text" id="direccion" name="direccion" required minlength="1" maxlength="60" size="10">
+            <!-- Campo de entrada de fecha -->
+            <p>Selecciona la fecha deseada</p>
+            <input type="date" name="fecha" step="2" />
+            <!-- Campo de entrada de hora -->
+            <p>Selecciona la fecha deseada</p>
+            <input type="time" name="hora" min="00:00" max="23:59" step="3600" />
+            <p>Doctor/a</p>
+            <input type="text" id="Doctor" name="Doctor" required minlength="1" maxlength="60" size="10">
+            <p>Especialidad</p>
+            <input type="text" id="Especialidad" name="Especialidad" required minlength="1" maxlength="60" size="10">
+            <p>Notas</p>
+            <input type="text" id="notas" name="notas" required minlength="1" maxlength="60">
+            <button class="AddCita_button">Añadir cita</button>
+        </form>
+    </div>
+</body>
+</html>
