@@ -15,10 +15,11 @@ html,body{
 .login-page {
     display: flex;
     width: 260px;
-    height: px ;
+    height: 508px ;
     padding: 8% 0 0;
-    align-items: center;
+    justify-content: center;
     margin: auto;
+
   }
   .form {
     /*position: relative;*/
@@ -29,7 +30,7 @@ html,body{
     height: 400px;
     margin-top: 60px;
     margin-bottom: 2px;
-    padding: 10px;
+    padding: 9px;
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
