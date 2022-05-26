@@ -16,17 +16,15 @@
         <form name="add" method="post" action="/send.php">
             <h2 class="titulo">AÑADIR CITA</h2>
             <p>Dirección</p>
-            <input type="text" id="direccion" name="direccion" required minlength="1" maxlength="60" size="10">
+            <input type="text" id="direccion" name="direccion" required minlength="1" maxlength="60" size="20">
             <!-- Campo de entrada de fecha -->
             <p>Selecciona la fecha deseada</p>
             <input type="date" name="fecha" step="2" />
             <!-- Campo de entrada de hora -->
             <p>Selecciona la fecha deseada</p>
             <input type="time" name="hora" min="00:00" max="23:59" step="3600" />
-            <p>Doctor/a</p>
-            <input type="text" id="Doctor" name="Doctor" required minlength="1" maxlength="60" size="10">
-            <p>Especialidad</p>
-            <input type="text" id="Especialidad" name="Especialidad" required minlength="1" maxlength="60" size="10">
+            <p>Doctor/a y especialidad</p>
+            <input type="text" id="Doctor" name="Doctor" required minlength="1" maxlength="60" size="20">
             <p>Notas</p>
             <input type="text" id="notas" name="notas" required minlength="1" maxlength="60">
             <button class="AddCita_button">Añadir cita</button>

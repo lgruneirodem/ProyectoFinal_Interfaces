@@ -1,0 +1,16 @@
+:root
+{
+    --nuestroColor:#acf5D2;
+    --segundoColor: #70b58d;
+    --tercerColor: #4e7982;
+    --Blanco: #FFFFFF;
+    --Negro: #000000;
+}
+body,html{
+    width: 320px;
+    height: 568px;
+    background-color:var(--nuestroColor);
+    font-family:'Nanum Gothic', sans-serif;
+    display:flex
+
+}
