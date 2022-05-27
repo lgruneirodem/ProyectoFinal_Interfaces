@@ -7,8 +7,8 @@
     --Negro: #000000;
 }
 body,html{
-    width: 320px;
-    height: 568px;
+    width: 375px;
+    height: 659px;
     background-color:var(--segundoColor);
     font-family:'Nanum Gothic', sans-serif;
     display:flex
@@ -18,7 +18,8 @@ body,html{
 justify-content: center;
 align-items: center;
 width: 100%;
-height: 100%;
+height: auto;
+margin-bottom: 10px;
 background-color: #acf5D2;
 }
 .mensajes h1{
@@ -38,11 +39,29 @@ li {
     background-color: #FFFFFF;
     text-align: center;
 }
-  
+
 ul {
 display: flex;
 flex-direction: column;
 list-style: none;
 align-items: stretch;
 padding-left: 0;
+}
+.footer{
+    position: absolute;
+    top:580px;
+    background-color: var(--tercerColor);
+    width: 359px;
+    height: 78px;
+}
+.footer2{
+    background-color: var(--segundoColor);
+    height: 78px;
+}
+.footer2 p{
+    margin-top: 3px;
+}
+.footer3{
+    background-color: #acf5D2;
+    margin-top: ;
 }
