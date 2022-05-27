@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/registro.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Nanum+Gothic&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Registro</title>
 </head>
 <body>
     <div class="registro-page">
-        <form id="registro" class="register-form">
-            <input id="Nombre" type="text" placeholder="Nombre"/>
-            <input id="passwordNew" type="password" placeholder="Contraseña"/>
-            <input id="email" type="text" placeholder="Email"/>
-            <button id="botonCrear">Crear</button>
-            <p class="message">Ya estoy registrado<a href="#login">Sign In</a></p>
-        </form>
+        <div class="form">
+            <form id="registro"class="registro-form">
+              <img class= "logo"src="images/logo2.png">
+              <input id="NewUser"type="text" placeholder="Usuario"/>
+              <input id ="NewPass"type="password" placeholder="Contraseña"/>
+              <input id ="RepeatPass"type="password" placeholder=" Repite la contraseña"/>
+              <button id="botonRegistro">Registrarse</button>
+              <p class="message">¿Ya estás registrado? <a href="login.html">Inicia Sesión</a></p>
+            </form>
+          </div>
     </div>
 </body>
 </html>
