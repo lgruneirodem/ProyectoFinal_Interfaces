@@ -20,7 +20,9 @@ html,body{
     padding: 8% 0 0;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin:auto;
+    padding-right: 3vw;
+    padding-top: 9vh;
 
   }
   .form {
@@ -41,7 +43,7 @@ html,body{
     font-family:'Nanum Gothic', 'sans-serif';
     outline: 0;
     background: #f2f2f2;
-    width: 100%;
+    width: 90%;
     border: 0;
     margin: 0 0 15px;
     padding: 15px;
@@ -53,7 +55,7 @@ html,body{
     text-transform: uppercase;
     outline: 0;
     background:#ACF5D2 ;
-    width: 100%;
+    width: 60%;
     border: 0;
     padding: 15px;
     color: #FFFFFF;
@@ -61,29 +63,30 @@ html,body{
     -webkit-transition: all 0.3 ease;
     transition: all 0.3 ease;
     cursor: pointer;
-    margin-top: ;
+    margin: top 10vh; ;
+    
   }
   .logo{
     width: 260px;
     align-items: center;
   }
   #NewUser{
-    margin-top: 4vh ;
-    margin-bottom: 2vh;
+    margin-top: 6vh ;
+    margin-bottom: 4vh;
   }
   #NewPass{
-    margin-top: 2vh;
-    margin-bottom: 3vh;
+    
+    margin-bottom: 4vh;
   }
   .form button:hover,.form button:active,.form button:focus {
     background:#70b58d;
   }
   #RepeatPass{
-      margin-bottom: 3vh;
+      margin-bottom: 9vh;
 
   }
-
-  .form .message {
+   
+ .form .message {
     margin: 15px 0 0;
     color: #b3b3b3;
     font-size: 12px;
