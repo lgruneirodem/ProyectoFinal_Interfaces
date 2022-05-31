@@ -5,20 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/mensajes.css">
+    <link rel="stylesheet" href="css/comun.css">
     <title>Mensajes</title>
 </head>
 <body>
-    <div class="mensajes">
+    <div class="principal">
         <div class="btn-menu">
-            <label class="icon-menu" for="btn-menu">|||</label>
+            <ul> 
+            <li><label class="icon-menu" for="btn-menu">|||</label></li>
+            <li><img src="images/logo-sinfondo.png" alt="user" width="200" height="50"></li>
+            </ul>
         </div>
         <h1>Mensajes</h1>
             <div class="mensajes2">
                 <ul>
-                    <li>Mensaje 1</li>
-                    <li>Mensaje 2</li>
-                    <li>Mensaje 3</li>
-                  </ul>
+                    <li><div class="item-msg"><ul><li><h3>De: Hija</h3></li><li>Asunto: Acuerdate de la pastilla</li></ul></div></li>
+                    <li><div class="item-msg"><ul><li><h3>De: Medico</h3></li><li>Asunto: Citacion dia 4</li></ul></div></li>
+                    <li><div class="item-msg"><ul><li><h3>De: Medico</h3></li><li>Asunto: Resultados pruebas</li></ul></div></li>
+                    <li><div class="item-msg"><ul><li><h3>De: Medico</h3></li><li>Asunto: Citacion dia 4</li></ul></div></li>
+                    <li><div class="item-msg"><ul><li><h3>De: Hija</h3></li><li>Asunto: Hora de la operación</li></ul></div></li>
+                </ul>
             </div>
             <footer>
                 <div class="footer">
@@ -26,23 +32,25 @@
                     <div class="footer-decoracion2"></div>
                     <div class="footer3">
                         <ul>
-                            <li><img src="images/104-undo2.png" alt="back" width="50" height="50"><a href="index.html"></a></li>
-                            <li><img src="images/114-user.png" alt="user" width="50" height="50"><a href="index.html"></a></li>
-                            <li><img src="images/070-envelop.png" alt="mensaje" width="50" height="50"><a href="mensajes.html"></a></li>
+                            <li><img src="images/104-undo2.png" alt="user" width="50" height="50"></a></li>
+                            <li><img src="images/114-user.png" alt="user" width="50" height="50"></a></li>
+                            <li><img src="images/070-envelop.png" alt="user" width="50" height="50"></a></li>
                         </ul>
                     </div>
                 </div>
             </footer>
     </div>
-<input type="checkbox" id="btn-menu">
+<input type="checkbox" id="btn-menu" checked>
 <div class="container-menu">
     <div class="cont-menu">
         <nav>
-            <a href="">1</a>
-            <a href="">2</a>
-            <a href="">300000</a>
+            <a class="menu-lat" href="">Contactos</a>
+            <a class="menu-lat" href="">Calendario</a>
+            <a class="menu-lat" href="">Citas</a>
+            <a class="menu-lat" href="">Home</a>
+            <a class="menu-lat-push" href="">Cerrar Sesion</a>
         </nav>
-        <label for="btn-menu" class="icon-equis">x</label>
+        <label for="btn-menu" class="icon-equis">X</label>
     </div>
 </div>
 </body>
