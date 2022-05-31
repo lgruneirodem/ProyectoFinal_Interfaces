@@ -54,34 +54,3 @@ margin-bottom: 10px;
     background:#70b58d;
   }
 
-  .footer{
-    position: absolute;
-    top:580px;
-    background-color: var(--segundoColor);
-    width: 359px;
-    height: 78px;
-}
-.footer-decoracion{
-    background-color: var(--tercerColor);
-    height: 3px;
-    width: 359px;
-}
-.footer3{
-    background-color: var(--nuestroColor);
-    width: 359px;
-    height: 60px;
-}
-.footer3 ul li {
-    border: 3px solid var(--tercerColor);
-    background-color: #FFFFFF;
-    text-align: center;
-    flex-grow: 1;
-}
-.footer3 ul {
-margin-top: 10px;
-padding: 0;
-height: 100%;
-display: flex;
-flex-direction: row;
-list-style: none;
-}
