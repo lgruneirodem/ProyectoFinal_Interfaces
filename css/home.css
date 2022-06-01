@@ -1,0 +1,75 @@
+:root
+{
+    --nuestroColor:#acf5D2;
+    --segundoColor: #70b58d;
+    --tercerColor: #4e7982;
+    --Blanco: #FFFFFF;
+    --Negro: #000000;
+}
+body,html{
+    width: 375px;
+    height: 659px;
+    background-color:var(--segundoColor);
+    font-family:'Nanum Gothic', sans-serif;
+    display:flex
+
+}
+p{
+    margin: 0;
+}
+.principal{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #acf5D2;
+}
+.parte-arriba-home ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px;
+}
+.parte-arriba-home ul li img{
+    border: 2px solid #4e7982;
+}
+.parte-arriba-home ul .presentacion{
+    font-size: 21px;
+    text-align: center;
+    padding-top: 30px;
+}
+.home{
+    background-color:var(--segundoColor);
+    margin: 0 30px 0 30px;
+    height: 38%;
+}
+.home2{
+    width: 100%;
+    background-color: #eee;
+    margin: 4px 5px 5px 5px;
+    height: 236px;
+    width: auto;
+}
+.push{
+    height: 1px;
+    width: 100%;
+    background-color: #70b58d;
+}
+.familia ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    padding: 18px;
+    margin: 0;
+}
+.familia ul li img{
+    border: 2px solid #4e7982;
+}
+.familia ul .presentacion{
+    font-size: 21px;
+    text-align: center;
+    padding-top: 10px;
+}
