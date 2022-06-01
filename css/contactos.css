@@ -6,75 +6,46 @@
     --Blanco: #FFFFFF;
     --Negro: #000000;
 }
-
 body,html{
     width: 375px;
-    height:664px;
+    height: 659px;
     background-color:var(--segundoColor);
     font-family:'Nanum Gothic', sans-serif;
     display:flex
 
 }
-.logo{
-    width:90%;
-    justify-content: center;
-    align-items: center;
-
+.principal{
+justify-content: center;
+align-items: center;
+width: 100%;
+height: auto;
+margin-bottom: 10px;
+background-color: #acf5D2;
 }
-.contactos{
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 10px;
-    background-color: #acf5D2;
-}
-.contactos h1{
+.principal h1{
     text-align: center;
+    margin-top: 0;
 }
-.listaContactos{
+.mensajes2{
     background-color:var(--segundoColor);
     margin-left: 30px;
     margin-right: 30px;
     height: 50%;
-    
 }
-.listaContactos ul li {
+.mensajes2 ul li {
     display: flex;
     border: 2px solid var(--tercerColor);
-    padding: .5em;
-    gap:1cm;
-    width: 94%;
-    height:  50px;
+    padding: 10px;
     background-color: #FFFFFF;
     text-align: center;
+    font-size: 20px;
 }
-.Container-contacto{
-    width: 95%;
-    height: 10%;
+.mensajes2 ul {
     display: flex;
-    border: #e6e6e6;
-    border-style: solid;
-    border-width: 1px;
-    background-color: white;
-    padding-right: 5%;
-    
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
 }
-.columna_foto{
-    flex: 1;
-}
-.foto_Contacto{
-    width: 60px;
-    margin: 20px;
-    border-radius: 100%;
-
-}
-.ColumnaTexto{
-    flex: 8;
-}
-.listaContactos ul {
-display: flex;
-flex-direction: column;
-list-style: none;
-align-items: stretch;
-padding-left: 0;
+.mensajes2 ul li img{
+    margin-right: 30px;
 }
