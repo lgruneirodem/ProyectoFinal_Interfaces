@@ -49,3 +49,11 @@ background-color: #acf5D2;
 .mensajes2 ul li img{
     margin-right: 30px;
 }
+.contacto{
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+    text-align: justify;
+    margin: 50px auto;
+    overflow-y: auto;
+}
