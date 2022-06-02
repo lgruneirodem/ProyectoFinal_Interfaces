@@ -4,46 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/addCita.css">
+    <link rel="stylesheet" href="css/addCitaN.css">
     <link rel="stylesheet" href="css/comun.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Nanum+Gothic&display=swap" rel="stylesheet">
-    <title>Añadir Cita</title>
+    <title>Mensajes</title>
 </head>
 <body>
-    <!-- <div><img src="images/logo-sinfondo.png" width=""></div> -->
-    <div class="addCita">
-        <form name="add" method="post" action="/send.php">
-            <h2 class="titulo">AÑADIR CITA</h2>
-            <p>Dirección</p>
-            <input type="text" id="direccion" name="direccion" required minlength="1" maxlength="60" size="20">
-            <!-- Campo de entrada de fecha -->
-            <p>Selecciona la fecha deseada</p>
-            <input type="date" name="fecha" step="2" />
-            <!-- Campo de entrada de hora -->
-            <p>Selecciona la fecha deseada</p>
-            <input type="time" name="hora" min="00:00" max="23:59" step="3600" />
-            <p>Doctor/a y especialidad</p>
-            <input type="text" id="Doctor" name="Doctor" required minlength="1" maxlength="60" size="20">
-            <p>Notas</p>
-            <input type="text" id="notas" name="notas" required minlength="1" maxlength="60">
-            <button class="AddCita_button">Añadir cita</button>
-        </form>
-        <footer>
-            <div class="footer">
-                <div class="footer-decoracion"></div>
-                <div class="footer-decoracion2"></div>
-                <div class="footer3">
-                    <ul>
-                        <li><img src="images/104-undo2.png" alt="user" width="50" height="50"></a></li>
-                        <li><img src="images/114-user.png" alt="user" width="50" height="50"></a></li>
-                        <li><img src="images/070-envelop.png" alt="user" width="50" height="50"></a></li>
-                    </ul>
-                </div>
+    <div class="principal">
+        <div class="btn-menu">
+            <ul> 
+            <li><label class="icon-menu" for="btn-menu">|||</label></li>
+            <li><img src="images/logo-sinfondo.png" alt="user" width="200" height="50"></li>
+            </ul>
+        </div>
+        <h1>Añadir</h1>
+            <div class="mensajes2">
+                <ul>
+                    
+                    <label>Dirección</label>
+                    <br>
+                    <input type="text" id="direccion" name="direccion" required minlength="1" maxlength="60" size="20">
+                    <br>
+                    <!-- Campo de entrada de fecha -->
+                    <label>Seleccione la fecha deseada</label>
+                    <br>
+                    <input type="date" name="fecha" step="2" />
+                    <br>
+                    <!-- Campo de entrada de hora -->
+                    <label>Seleccione la hora de la cita</label>
+                    <br>
+                    <input type="time" name="hora" min="00:00" max="23:59" step="3600" />
+                    <br>
+                    <label>Doctor y especialidad</label>
+                    <br>
+                    <input type="text" id="Doctor" name="Doctor" required minlength="1" maxlength="60" size="20">
+                    <br>
+                    <label>Notas</label>
+                    <br>
+                    <input type="text" id="notas" name="notas" required minlength="1" maxlength="60">
+                    <br>
+                    <button class="AddCita_button">Añadir cita</button>
+                    
+                </ul>
             </div>
-        </footer>
+            <footer>
+                <div class="footer">
+                    <div class="footer-decoracion"></div>
+                    <div class="footer-decoracion2"></div>
+                    <div class="footer3">
+                        <ul>
+                            <li><img src="images/104-undo2.png" alt="user" width="50" height="50"></a></li>
+                            <li><img src="images/114-user.png" alt="user" width="50" height="50"></a></li>
+                            <li><img src="images/070-envelop.png" alt="user" width="50" height="50"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
     </div>
-
+<input type="checkbox" id="btn-menu" checked>
+<div class="container-menu">
+    <div class="cont-menu">
+        <nav>
+            <a class="menu-lat" href="contactos.html">Contactos</a>
+            <a class="menu-lat" href="calendario.html">Calendario</a>
+            <a class="menu-lat" href="citas.html">Citas</a>
+            <a class="menu-lat" href="home.html">Home</a>
+            <a class="menu-lat-push" href="login.html">Cerrar Sesion</a>
+        </nav>
+        <label for="btn-menu" class="icon-equis">X</label>
+    </div>
+</div>
 </body>
 </html>

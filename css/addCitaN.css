@@ -1,0 +1,68 @@
+:root
+{
+    --nuestroColor:#acf5D2;
+    --segundoColor: #70b58d;
+    --tercerColor: #4e7982;
+    --Blanco: #FFFFFF;
+    --Negro: #000000;
+}
+body,html{
+    width: 375px;
+    height: 659px;
+    background-color:var(--segundoColor);
+    font-family:'Nanum Gothic', sans-serif;
+    display:flex
+
+}
+.principal{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #acf5D2;
+}
+.principal h1{
+    text-align: center;
+    margin-top: 0;
+}
+.mensajes2{
+    display: flex;
+    background-color:var(--segundoColor);
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 60%;
+}
+.mensajes2 ul label{
+    line-height: 6vh;
+    justify-items: center;
+    align-items: center;
+}
+
+.mensajes2 ul button{
+    width: 50%;
+    height: 27px;
+    margin-top: 2vh;
+    margin-left: 13vw;
+    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    background-color:var(--nuestroColor);
+}
+
+
+.principal .btn-menu ul {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    }
+.principal .btn-menu ul li{
+    margin-left: 20px;
+}

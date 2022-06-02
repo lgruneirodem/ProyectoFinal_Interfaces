@@ -41,6 +41,10 @@ list-style: none;
     color:#4e7982;
     font-size: 25px;
 }
+.btn-menu img{
+    padding-right: 20vw;
+    height: 60px;
+}
 #btn-menu{
     display: none;
 }

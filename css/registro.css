@@ -63,7 +63,12 @@ html,body{
     -webkit-transition: all 0.3 ease;
     transition: all 0.3 ease;
     cursor: pointer;
-    margin: top 10vh; ;
+    margin: top 10vh; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    
     
   }
   .logo{
