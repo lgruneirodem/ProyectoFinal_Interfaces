@@ -39,6 +39,7 @@ background-color: #acf5D2;
     text-align: justify;
     margin: 50px auto;
     overflow-y: auto;
+    font-size: 19px;
 }
 .mensajes2 ul li {
     display: flex;
@@ -81,4 +82,7 @@ background-color: #acf5D2;
     }
 .principal .btn-menu ul li{
     margin-left: 20px;
+}
+a{
+    text-decoration: none;
 }

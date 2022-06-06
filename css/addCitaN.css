@@ -22,6 +22,9 @@ body,html{
     margin-bottom: 10px;
     background-color: #acf5D2;
 }
+input{
+    font-size: 20px;
+}
 .principal h1{
     text-align: center;
     margin-top: 0;
@@ -31,12 +34,16 @@ body,html{
     background-color:var(--segundoColor);
     margin-left: 30px;
     margin-right: 30px;
-    height: 60%;
+    height: 65%;
+}
+.mensajes2 ul{
+    padding-left: 25px;
 }
 .mensajes2 ul label{
     line-height: 6vh;
     justify-items: center;
     align-items: center;
+    font-size: 20px;
 }
 
 .mensajes2 ul button{

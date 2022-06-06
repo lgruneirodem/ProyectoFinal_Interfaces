@@ -45,7 +45,7 @@ html,body{
     margin: 0 0 15px;
     padding: 15px;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 20px;
   }
   .form button {
     font-family: "Roboto", sans-serif;
@@ -56,7 +56,7 @@ html,body{
     border: 0;
     padding: 15px;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 20px;
     -webkit-transition: all 0.3 ease;
     transition: all 0.3 ease;
     cursor: pointer;
@@ -83,7 +83,7 @@ html,body{
   .form .message {
     margin: 15px 0 0;
     color: #b3b3b3;
-    font-size: 12px;
+    font-size: 20px;
   }
   .form .message a {
     color: #70b58d;
