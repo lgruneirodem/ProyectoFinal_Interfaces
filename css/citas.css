@@ -80,6 +80,7 @@ body,html{
     height: 9vh;
     margin-left: 2vw;
     margin-top: 1.5vh;
+    padding-top: 5vw ;
 
 }
 .informacion-Proxcita label{
@@ -87,6 +88,7 @@ body,html{
     margin-top: 2vh;
     padding-left: 5vw;
     line-height:3vh;
+    
 }
 .botonAdd{
     font-family: 'Nanum Gothic', sans-serif;
@@ -94,7 +96,7 @@ body,html{
     font-size: 20px;
     height: 30px;
     margin-left: 25vw;
-    margin-top: 2vh;
+    margin-top: 1vh;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;

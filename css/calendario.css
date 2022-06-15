@@ -59,7 +59,7 @@ ol {
   .first-day {
     grid-column-start:3;
   }
-  
+.do{color: red;}
   .day-name {
     background: #eee;
     font-weight: bold;

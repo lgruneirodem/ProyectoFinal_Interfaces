@@ -31,8 +31,9 @@ background-color: #acf5D2;
     font-size: 30px;
     
 }
-.listaMensajes h2{
-    padding-top: 10vh;
+ul{
+    padding: 20px;
+    text-align: center;
 }
 li{
     display: block;
@@ -42,9 +43,7 @@ li{
     width: 60%;
     height: 30px;
     margin-top: 2vh;
-    margin-left: 13vw;
     font-size: 20px;
-    
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
